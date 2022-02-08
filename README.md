@@ -1,10 +1,22 @@
-# Naivecoin: chapter 6
-The branch for Naivecoin, chapter6
+## 네이브코인 시각화함
+# 서버 출처는 Naivecoin: chapter 6
 
-```
+#####
+
 npm install
 npm start
-```
+``
+client에서도
+npm install
+npm start
+
+## 1. 채굴해서 코인베이스 얻기
+## 2. 보낼 금액 양 amount 보낼 지갑주소 address 적어서 sendTx 트랙잭션 풀에 보내기
+## 3. 트랜잭션풀에 있는 값 채굴해서 Block에 넣기 
+## 4. 난이도 올라가는 것 확인하려면 시간조건있음 서버 재실행후 10이상 채굴
+
+
+##밑에는 기존 코드의 명령어
 
 ##### Get blockchain
 ```
